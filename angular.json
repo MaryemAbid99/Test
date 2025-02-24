@@ -25,9 +25,27 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+     
+              "src/assets/FrontOffice/assets/vendor/bootstrap/css/bootstrap.min.css",
+              "src/assets/FrontOffice/assets/css/main.css",
+              "node_modules/aos/dist/aos.css",
+              "src/assets/BackOffice/assets/css/demo.css",
+              "src/assets/BackOffice/assets/vendor/css/pages/page-auth.css",
+              "src/assets/BackOffice/assets/vendor/css/core.css",
+              "src/assets/BackOffice/assets/vendor/css/theme-default.css",
+              "src/assets/BackOffice/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/boxicons/css/boxicons.min.css"
+              
+              
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/FrontOffice/assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+              "src/assets/FrontOffice/assets/vendor/aos/aos.js",
+              "node_modules/aos/dist/aos.js",
+              "src/assets/BackOffice/assets/js/main.js",
+              "src/assets/BackOffice/assets/vendor/js/helpers.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,5 +112,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "4cdf2820-958e-45f4-9278-c96b3c9edb1c"
   }
 }
